@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: rgba(255,195,23,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+body{
+    background: linear-gradient(rgba(32, 32, 32, 0.8),rgba(32, 32, 32, 0.8)), url(../products/background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: 10px;
+}
+
+.logo img{
+    height: 100px;
+    cursor: pointer;
+}
+
+.search-bar{
+    width: 300px;
+    padding: 50px auto;
+    position: relative;
+    display: flex;
+}
+
+.search-input{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #fdf606;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+.navbar ul li a:hover{
+    color: #f60904;
+}
+
+/* Tile */
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.title h1{
+    color: #ffc317;
+    font-size: 50px;
+    font-weight: 30px;
+}
+
+/* Products */
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    background-color: #ffc317;
+    border: none;
+    border-radius: 30px;
+    margin: 30px 20px 50px;
+    padding: 60px;
+}
+
+.container img{
+    height: 300px;
+    border: 3px solid #f60904;
+    border-radius: 20px;
+}
+
+.container h3{
+    margin-top: 20px;
+}
+
+.container p{
+    align-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.btn button{
+    background-color: #fdfd05;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 40px;
+    transition: 0.2s ease-in;
+}
+
+.btn button a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+.btn button:hover{
+    background-color: #f60904;
+}
+
+.btn button a:hover{
+    color: #fdfd05;
+}
+
+/* footer */
+footer{
+    background-color: rgba(46, 45, 45, 0.767);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.foot h3{
+    color: white;
+}
+
+.foot p{
+    color: white;
+    padding-top: 10px;
+}

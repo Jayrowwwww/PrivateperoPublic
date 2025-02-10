@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: rgba(255,195,23,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+body{
+    background: linear-gradient(rgba(32, 32, 32, 0.8),rgba(32, 32, 32, 0.8)), url(../background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: 10px;
+}
+
+.logo img{
+    height: 100px;
+    cursor: pointer;
+}
+
+.search-bar{
+    width: 300px;
+    padding: 50px auto;
+    position: relative;
+    display: flex;
+}
+
+.search-bar i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.search-input{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #fdf606;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+.navbar ul li a:hover{
+    color: #f60904;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+.image img{
+    height: 700px;
+}
+
+.content{
+    margin-top: 30px;
+}
+
+.content h1{
+    color: white;
+    font-size: 100px;
+    font-weight: 1000;
+}
+
+.content p{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.btn button{
+    background-color: #ffc317;
+    margin-top: 90px;
+    margin-left: 300px;
+    height: 90px;
+    width: 300px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn button a{
+    text-decoration: none;
+    color: #f60904;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* footer */
+footer{
+    background-color: rgba(46, 45, 45, 0.767);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.foot h3{
+    color: white;
+}
+
+.foot p{
+    color: white;
+    padding-top: 10px;
+}
