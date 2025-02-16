@@ -6,7 +6,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body{
+html{
     scroll-behavior: smooth;
 }
 
@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #03063f;
+    background-color: #03063f9d;
     border-bottom: 2px solid rgba(255, 255, 255, 0.603) ;
     height: 90px;
     width: 100%;
@@ -46,6 +46,23 @@ header{
     color:rgb(53, 225, 255);
 }
 
+.bott button{
+    height: 40px;
+    width: 130px;
+    background-color: #03063f;
+    border: 2px solid rgb(53, 225, 255);
+    border-radius: 30px;
+}
+
+.bott button a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bott button:hover{
+    background-color: #014770   ;
+}
+
 /* main */
 .home{
     background: url(../pictures/background.jpg);
@@ -55,7 +72,7 @@ header{
 }
 
 .title{
-    padding: 10rem 60rem 10rem 10rem;
+    padding: 15rem 60rem 10rem 13rem;
     text-align: left;
 }
 
@@ -88,6 +105,7 @@ header{
 
 .btn button a{
     text-decoration: none;
+    font-size:17px;
     font-weight: bold;
 }
 
@@ -100,15 +118,15 @@ header{
 }
 
 hr{
-    border: 10px solid white;
+    border: 5px solid white;
 }
 
 /* Creations */
 .creations{
     background: url(../pictures/backcreations.jpg);
-    height: 93vh;
+    height: 100vh;
+    padding-top: 80px;
 }
-
 
 .header h1{
     padding-top: 30px;
@@ -117,8 +135,8 @@ hr{
 }
 
 .disc{
-    margin-top: 20px;
-    padding: 0 20rem;
+    margin-top: 40px;
+    padding: 0 30rem;
     text-align: center;
 }
 
@@ -135,7 +153,7 @@ hr{
     height: 33rem;
     width: 27rem;
     padding: 30px;
-    margin-top: 100px;
+    margin-top: 70px;
     text-align: center;
     transition: transform 0.2s ease-in;
     transition: box-shadow 0.2s ease;
@@ -143,8 +161,9 @@ hr{
 
 .content img{
     height: 250px;
-    margin: 15px 0;
+    margin: 10px 0;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .content:hover{
